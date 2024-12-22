@@ -2,5 +2,5 @@
   (version 7)
   (lib (name "pizero-papoe-rescue")(type "Legacy")(uri "${KIPRJMOD}/pizero-papoe-rescue.lib")(options "")(descr ""))
   (lib (name "pizero-papoe-special")(type "KiCad")(uri "${KIPRJMOD}/pizero-papoe-special.kicad_sym")(options "")(descr ""))
-  (lib (name "TPS63070RNMR")(type "KiCad")(uri "/Users/ihartwig/Downloads/TPS63070RNMR/TPS63070RNMR.kicad_sym")(options "")(descr ""))
+  (lib (name "PiZeroHat")(type "KiCad")(uri "${KICAD_PIZEROHAT_LIB_DIR}/Raspberry_Pi_Zero_v.1.3_Hat.kicad_sym")(options "")(descr ""))
 )
