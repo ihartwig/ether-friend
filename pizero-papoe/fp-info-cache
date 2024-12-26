@@ -1,4 +1,4 @@
-24446431603397055
+24448166908687457
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -98630,6 +98630,13 @@ Varistor VF
 2
 2
 pizero-poe-special
+Fuse_2016_5041Metric
+Fuse SMD 2010 (5025 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
+fuse
+0
+2
+2
+pizero-poe-special
 MBS
 
 
@@ -98669,8 +98676,8 @@ RJ45_Amphenol_RJE7318800xxx0x
 Shielded, https://www.amphenolcanada.com/ProductSearch/drawings/AC/RJHSE538X.pdf
 RJ45 8p8c ethernet cat5
 0
-10
-9
+14
+13
 pizero-poe-special
 RTL8153B-VB-CG_QFN40P500X500X90-41N-D
 QFN-40
