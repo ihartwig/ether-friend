@@ -51,7 +51,13 @@
           "min_clearance": 0.1524
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
@@ -113,19 +119,19 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.05,
-        "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
-        "min_microvia_diameter": 0.508,
-        "min_microvia_drill": 0.127,
+        "min_copper_edge_clearance": 0.2,
+        "min_hole_clearance": 0.2,
+        "min_hole_to_hole": 0.2,
+        "min_microvia_diameter": 0.25,
+        "min_microvia_drill": 0.15,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.16,
+        "min_through_hole_diameter": 0.15,
         "min_track_width": 0.1,
-        "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.26,
+        "min_via_annular_width": 0.15,
+        "min_via_diameter": 0.25,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -175,10 +181,15 @@
       "track_widths": [
         0.0,
         0.1,
+        0.1524,
         0.2,
+        0.2032,
+        0.254,
         0.3,
+        0.3048,
         0.4,
         0.5,
+        0.508,
         0.6,
         0.8,
         1.0
@@ -223,7 +234,7 @@
           "drill": 0.8
         }
       ],
-      "zones_allow_external_fillets": false
+      "zones_allow_external_fillets": true
     },
     "ipc2581": {
       "dist": "",
@@ -462,7 +473,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2032,
+        "clearance": 0.1524,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -472,24 +483,41 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.254,
+        "track_width": 0.1524,
         "via_diameter": 0.6096,
         "via_drill": 0.3048,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.254,
-        "diff_pair_gap": 0.25,
+        "clearance": 0.1524,
+        "diff_pair_gap": 0.2286,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.129032,
         "line_style": 0,
         "microvia_diameter": 0.508,
         "microvia_drill": 0.127,
-        "name": "PoE Power",
+        "name": "Diff 100",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5588,
+        "track_width": 0.129032,
+        "via_diameter": 0.6096,
+        "via_drill": 0.3048,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.1524,
+        "diff_pair_gap": 0.1778,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.15113,
+        "line_style": 0,
+        "microvia_diameter": 0.508,
+        "microvia_drill": 0.127,
+        "name": "Diff 90",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.15113,
         "via_diameter": 0.6096,
         "via_drill": 0.3048,
         "wire_width": 6
@@ -506,7 +534,7 @@
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.308,
+        "track_width": 0.508,
         "via_diameter": 0.6096,
         "via_drill": 0.3048,
         "wire_width": 6
@@ -519,356 +547,24 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "Default",
-        "pattern": "+3V3"
+        "netclass": "Diff 100",
+        "pattern": ".*MDI\\d_[N|P]"
       },
       {
-        "netclass": "Default",
-        "pattern": "+5V"
+        "netclass": "Diff 100",
+        "pattern": ".*D[A-D]_[N|P]"
       },
       {
-        "netclass": "Default",
-        "pattern": "/GPIO0_ID_SD"
+        "netclass": "Power",
+        "pattern": ".*D[A-D]_C"
       },
       {
-        "netclass": "Default",
-        "pattern": "/GPIO10_MOSI"
+        "netclass": "Diff 90",
+        "pattern": ".*_U[2|3]\\w+[N|P]"
       },
       {
-        "netclass": "Default",
-        "pattern": "/GPIO11_SCLK"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/GPIO12"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/GPIO13"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/GPIO14_TXD0"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/GPIO15_RXD0"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/GPIO16_CE2#"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/GPIO17"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/GPIO18"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/GPIO19"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/GPIO1_ID_SC"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/GPIO1_SDA1"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/GPIO20_MOSI"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/GPIO21_SCLK"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/GPIO22"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/GPIO23"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/GPIO24"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/GPIO25"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/GPIO26"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/GPIO27"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/GPIO3_SCL1"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/GPIO4"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/GPIO5"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/GPIO6"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/GPIO7_CE1#"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/GPIO8_CE0#"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/GPIO9_MISO"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/LEDA_A"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/LEDA_K"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/LEDB_A"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/LEDB_K"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/PHY_OSC1"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/PHY_OSC2"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/POE_FB_A"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/POE_FB_DIV"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/POE_FB_K"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/POE_PVCC"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/POE_RUN"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/POE_SW_D"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/POE_SW_SENSE"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/POE_VPORTN"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/POE_VPORTP"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/POE_VPORTP_L"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/POW_SW_S"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/RPI_3V3_1"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/RPI_3V3_2"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/RPI_VBUS"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/TPIN+"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/TPIN-"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/TPOUT+"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/TPOUT-"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "/~{POE_PWRGD}"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "GND"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "GNDPWR"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(C11-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(C14-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(C18-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(C21-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D4-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D5-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D6-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D7-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(D8-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(H1-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(H2-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(H3-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(H4-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(IC1-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(IC1-Pad10)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(IC1-Pad27)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(IC1-Pad6)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(Q1-Pad3)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(Q2-Pad4)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(Q2-Pad5)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(R1-Pad1)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(R18-Pad2)"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Net-(T1-Pad7)"
-      },
-      {
-        "netclass": "PoE Power",
-        "pattern": "/DATA_PAIR_1"
-      },
-      {
-        "netclass": "PoE Power",
-        "pattern": "/DATA_PAIR_2"
-      },
-      {
-        "netclass": "PoE Power",
-        "pattern": "/SPARE_PAIR_1"
-      },
-      {
-        "netclass": "PoE Power",
-        "pattern": "/SPARE_PAIR_2"
-      },
-      {
-        "netclass": "PoE Power",
-        "pattern": "/TPIN_T+"
-      },
-      {
-        "netclass": "PoE Power",
-        "pattern": "/TPIN_T-"
-      },
-      {
-        "netclass": "PoE Power",
-        "pattern": "/TPOUT_T+"
-      },
-      {
-        "netclass": "PoE Power",
-        "pattern": "/TPOUT_T-"
+        "netclass": "Power",
+        "pattern": "/POE_VP"
       }
     ]
   },
