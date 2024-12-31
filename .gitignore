@@ -10,6 +10,9 @@ rescue-backup/
 \#*
 ~*
 
+# Release Files
+*.zip
+
 # Netlist and BOM files (exported from Eeschema)
 *.net
 *.xml
