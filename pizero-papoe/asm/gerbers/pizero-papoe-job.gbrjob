@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "8.0.7"
     },
-    "CreationDate": "2024-12-30T22:20:21-08:00"
+    "CreationDate": "2025-01-01T14:13:32-08:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "pizero-papoe",
       "GUID": "70697a65-726f-42d7-9061-706f652e6b69",
-      "Revision": "0.1"
+      "Revision": "R1"
     },
     "Size": {
       "X": 80.1,

@@ -9690,6 +9690,12 @@
 		(uuid "74e64d7a-0521-426b-bd9d-402c6d07738f")
 	)
 	(junction
+		(at 393.7 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77147fc2-31b3-48d1-829b-8b6d3983b73a")
+	)
+	(junction
 		(at 124.46 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9708,10 +9714,22 @@
 		(uuid "7a5e89fe-95d4-4929-9bfc-3c2bebbd3640")
 	)
 	(junction
+		(at 276.86 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7fa33da3-8879-4e76-8dd2-072b40f3081c")
+	)
+	(junction
 		(at 320.04 213.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "805887df-b881-4632-a729-b4726d7be9ab")
+	)
+	(junction
+		(at 358.14 204.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81a6e7e8-6d6c-485c-8fec-aaba144963f2")
 	)
 	(junction
 		(at 73.66 147.32)
@@ -9756,6 +9774,12 @@
 		(uuid "93c2052c-9d47-445a-a8b2-88e64dc89d1f")
 	)
 	(junction
+		(at 393.7 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94636e5d-3ec3-43ee-9c54-2b870c6b11db")
+	)
+	(junction
 		(at 114.3 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9772,12 +9796,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9e211f9b-2f0c-4cfa-be22-edfd2ec9b98d")
-	)
-	(junction
-		(at 95.25 213.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9e7305e6-ab0d-453b-b2e3-77c404bd785f")
 	)
 	(junction
 		(at 356.87 97.79)
@@ -9856,6 +9874,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c59dbce6-80b0-478a-8338-6cb6a49dfbc3")
+	)
+	(junction
+		(at 379.73 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9d49632-ed4f-46ba-91a4-3c1af479ef1d")
 	)
 	(junction
 		(at 256.54 125.73)
@@ -9946,6 +9970,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eeaf27f7-538d-42e8-a1b7-6306b7cd8cfd")
+	)
+	(junction
+		(at 95.25 213.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1461878-503e-4c5f-afcc-4618348922b0")
 	)
 	(junction
 		(at 332.74 213.36)
@@ -10101,6 +10131,16 @@
 	)
 	(wire
 		(pts
+			(xy 276.86 190.5) (xy 276.86 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01dc0009-ae6d-4c30-9a14-6998ef4ebe1f")
+	)
+	(wire
+		(pts
 			(xy 95.25 213.36) (xy 116.84 213.36)
 		)
 		(stroke
@@ -10171,7 +10211,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 187.96) (xy 289.56 195.58)
+			(xy 276.86 187.96) (xy 276.86 190.5)
 		)
 		(stroke
 			(width 0)
@@ -10188,16 +10228,6 @@
 			(type default)
 		)
 		(uuid "05692d36-da0a-4517-86cb-ccf0daa76514")
-	)
-	(wire
-		(pts
-			(xy 393.7 91.44) (xy 393.7 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06e9db9e-5781-4f7c-8ff5-4aa43e0d82ce")
 	)
 	(wire
 		(pts
@@ -10611,16 +10641,6 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 213.36) (xy 289.56 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "191971e8-b0cd-4d8a-a79c-48ffc9cc7c45")
-	)
-	(wire
-		(pts
 			(xy 251.46 49.53) (xy 251.46 77.47)
 		)
 		(stroke
@@ -10811,6 +10831,16 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 220.98) (xy 280.67 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2521abe6-eee2-4b62-8831-c45cbc240f6d")
+	)
+	(wire
+		(pts
 			(xy 187.96 213.36) (xy 194.31 213.36)
 		)
 		(stroke
@@ -10838,6 +10868,16 @@
 			(type default)
 		)
 		(uuid "257de7fd-db3f-4d00-9af2-99ef210f7f28")
+	)
+	(wire
+		(pts
+			(xy 379.73 109.22) (xy 379.73 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26316feb-967c-426e-bf87-f174a9d04805")
 	)
 	(wire
 		(pts
@@ -11061,6 +11101,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 274.32) (xy 163.83 266.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31d42b31-9e12-47b6-aca6-506ab3263f9b")
+	)
+	(wire
+		(pts
 			(xy 106.68 85.09) (xy 106.68 88.9)
 		)
 		(stroke
@@ -11158,6 +11208,16 @@
 			(type default)
 		)
 		(uuid "3472c903-b527-40f8-8667-a96e9f6f6523")
+	)
+	(wire
+		(pts
+			(xy 276.86 208.28) (xy 276.86 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35dd113a-9dfa-48bc-be04-564d1e718502")
 	)
 	(wire
 		(pts
@@ -11311,16 +11371,6 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 209.55) (xy 269.24 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45636735-21b3-45bd-9a84-140d22436c1d")
-	)
-	(wire
-		(pts
 			(xy 92.71 135.89) (xy 74.93 135.89)
 		)
 		(stroke
@@ -11408,6 +11458,16 @@
 			(type default)
 		)
 		(uuid "4b539fe2-7598-469f-bf1e-28bd7e4af42c")
+	)
+	(wire
+		(pts
+			(xy 163.83 257.81) (xy 173.99 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b809e46-3dc8-4f50-ab1e-ffd008ac538b")
 	)
 	(wire
 		(pts
@@ -11618,6 +11678,16 @@
 			(type default)
 		)
 		(uuid "5472ed44-0771-4983-86cb-5510d5b55f07")
+	)
+	(wire
+		(pts
+			(xy 280.67 217.17) (xy 276.86 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54a812cd-8250-4d56-b182-7139971e47d4")
 	)
 	(wire
 		(pts
@@ -11851,6 +11921,16 @@
 	)
 	(wire
 		(pts
+			(xy 269.24 190.5) (xy 269.24 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "636bf686-68e8-48b6-b448-0fd9015b8091")
+	)
+	(wire
+		(pts
 			(xy 62.23 204.47) (xy 71.12 204.47)
 		)
 		(stroke
@@ -11958,6 +12038,16 @@
 			(type default)
 		)
 		(uuid "6b30c82d-2574-4847-8d1e-e7f9b906fc4a")
+	)
+	(wire
+		(pts
+			(xy 393.7 73.66) (xy 393.7 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b479ae2-2758-4fb4-81b4-a62275ab9049")
 	)
 	(wire
 		(pts
@@ -12341,6 +12431,16 @@
 	)
 	(wire
 		(pts
+			(xy 379.73 114.3) (xy 392.43 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c7681da-7012-418d-b1e3-725af92d2902")
+	)
+	(wire
+		(pts
 			(xy 332.74 223.52) (xy 337.82 223.52)
 		)
 		(stroke
@@ -12591,7 +12691,7 @@
 	)
 	(wire
 		(pts
-			(xy 358.14 213.36) (xy 358.14 208.28)
+			(xy 358.14 213.36) (xy 358.14 210.82)
 		)
 		(stroke
 			(width 0)
@@ -12671,7 +12771,7 @@
 	)
 	(wire
 		(pts
-			(xy 358.14 203.2) (xy 358.14 200.66)
+			(xy 358.14 205.74) (xy 358.14 204.47)
 		)
 		(stroke
 			(width 0)
@@ -12831,13 +12931,13 @@
 	)
 	(wire
 		(pts
-			(xy 393.7 76.2) (xy 393.7 74.93)
+			(xy 182.88 260.35) (xy 175.26 260.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "944018b0-118f-4487-98f2-f1aa84824db5")
+		(uuid "9450c364-3db0-4846-b831-b2a651374a4a")
 	)
 	(wire
 		(pts
@@ -12961,6 +13061,16 @@
 	)
 	(wire
 		(pts
+			(xy 358.14 204.47) (xy 358.14 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d3a9391-8f02-4104-b435-0b2a44980b60")
+	)
+	(wire
+		(pts
 			(xy 346.71 97.79) (xy 346.71 110.49)
 		)
 		(stroke
@@ -12968,16 +13078,6 @@
 			(type default)
 		)
 		(uuid "9d7dc191-1b27-482d-9dd4-6e8752d04387")
-	)
-	(wire
-		(pts
-			(xy 78.74 213.36) (xy 95.25 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9daaff76-cad4-4930-bed8-0424e75372db")
 	)
 	(wire
 		(pts
@@ -12998,6 +13098,16 @@
 			(type default)
 		)
 		(uuid "9dd8087f-2869-4aac-96cc-82c8f777a0b8")
+	)
+	(wire
+		(pts
+			(xy 393.7 74.93) (xy 393.7 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9de909d0-3091-40f4-b385-1dc68e9fd6ea")
 	)
 	(wire
 		(pts
@@ -13058,6 +13168,16 @@
 			(type default)
 		)
 		(uuid "a0c13b02-170d-4a9f-ae3b-e8d0ae0016e6")
+	)
+	(wire
+		(pts
+			(xy 280.67 220.98) (xy 280.67 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1030800-8401-48f9-b20a-8dc244ecd30f")
 	)
 	(wire
 		(pts
@@ -13461,6 +13581,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 261.62) (xy 163.83 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2ab46fa-97c6-467a-a67e-959d565a3258")
+	)
+	(wire
+		(pts
 			(xy 114.3 104.14) (xy 124.46 104.14)
 		)
 		(stroke
@@ -13501,6 +13631,16 @@
 	)
 	(wire
 		(pts
+			(xy 393.7 90.17) (xy 393.7 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4a50b02-6e0f-4c95-89c0-bc403fadf097")
+	)
+	(wire
+		(pts
 			(xy 344.17 74.93) (xy 331.47 74.93)
 		)
 		(stroke
@@ -13508,6 +13648,16 @@
 			(type default)
 		)
 		(uuid "b5304d41-2522-4bc5-8bba-62148305bbf8")
+	)
+	(wire
+		(pts
+			(xy 182.88 273.05) (xy 182.88 260.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5504ed3-7ebf-4146-b972-8d5e99a4bc5b")
 	)
 	(wire
 		(pts
@@ -13551,7 +13701,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 203.2) (xy 289.56 200.66)
+			(xy 276.86 203.2) (xy 276.86 200.66)
 		)
 		(stroke
 			(width 0)
@@ -13891,6 +14041,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 260.35) (xy 175.26 262.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6e97af3-0efc-4af3-88ae-c4fdb1a0442b")
+	)
+	(wire
+		(pts
 			(xy 27.94 154.94) (xy 27.94 152.4)
 		)
 		(stroke
@@ -13991,6 +14151,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 213.36) (xy 85.09 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce540236-b5b9-441a-9115-cd8f326d2f60")
+	)
+	(wire
+		(pts
 			(xy 205.74 120.65) (xy 205.74 129.54)
 		)
 		(stroke
@@ -14001,6 +14171,16 @@
 	)
 	(wire
 		(pts
+			(xy 344.17 204.47) (xy 358.14 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf2cdf02-7596-4c3d-b01f-aae37518bb3b")
+	)
+	(wire
+		(pts
 			(xy 228.6 27.94) (xy 242.57 27.94)
 		)
 		(stroke
@@ -14008,16 +14188,6 @@
 			(type default)
 		)
 		(uuid "cf37d3d5-d2ad-484f-bdbe-0a01eb44ef46")
-	)
-	(wire
-		(pts
-			(xy 393.7 109.22) (xy 393.7 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf397d78-f91c-41ae-b23d-3c37957368f2")
 	)
 	(wire
 		(pts
@@ -14131,6 +14301,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 213.36) (xy 95.25 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3159533-6434-4e62-bc49-6ea2d95d8e0b")
+	)
+	(wire
+		(pts
 			(xy 124.46 62.23) (xy 134.62 62.23)
 		)
 		(stroke
@@ -14241,6 +14421,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 267.97) (xy 175.26 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8338bdf-fe57-4269-8ec8-b7e82491d032")
+	)
+	(wire
+		(pts
 			(xy 139.7 147.32) (xy 160.02 147.32)
 		)
 		(stroke
@@ -14248,6 +14438,16 @@
 			(type default)
 		)
 		(uuid "d8a3e2e2-3a51-4512-955a-09f486fcccd3")
+	)
+	(wire
+		(pts
+			(xy 269.24 190.5) (xy 276.86 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8aa71ee-05e0-4e95-b924-3cf4f770a981")
 	)
 	(wire
 		(pts
@@ -14328,6 +14528,16 @@
 			(type default)
 		)
 		(uuid "dd7a7f31-bcd0-4d2d-94d2-2bb85d65d1be")
+	)
+	(wire
+		(pts
+			(xy 175.26 274.32) (xy 163.83 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de2d3c3b-4826-4917-8899-bc4da47a1654")
 	)
 	(wire
 		(pts
@@ -15090,7 +15300,7 @@
 		)
 		(uuid "13c4c3df-a408-4ac6-8242-6578d8287e74")
 	)
-	(text "IEEE PoE may send a detection voltage of 2.7-10.1 V\nlooking for a 25kohm load at this end."
+	(text "IEEE PoE may send a detection voltage of 2.7-10.1 V\nlooking for a 25kohm load at this end.\n\nProtect against higher than 20V input reaching the TPS63070."
 		(exclude_from_sim no)
 		(at 37.084 196.342 0)
 		(effects
@@ -15131,9 +15341,9 @@
 		)
 		(uuid "4dec8aa8-86f6-4169-a5f0-67f2c6284b6f")
 	)
-	(text "Passive PoE (4-16V) -> 2A Buck-Boost -> 5V"
+	(text "Passive PoE (4.5-18V) -> 2A Buck-Boost (4-16V) -> 5V"
 		(exclude_from_sim no)
-		(at 63.5 171.45 0)
+		(at 145.034 171.45 0)
 		(effects
 			(font
 				(size 3.9878 3.9878)
@@ -15141,7 +15351,7 @@
 				(bold yes)
 				(italic yes)
 			)
-			(justify left bottom)
+			(justify bottom)
 		)
 		(uuid "4fc5f935-295c-420b-8c52-8bb8b844f560")
 	)
@@ -15342,6 +15552,17 @@
 			(justify left bottom)
 		)
 		(uuid "1a8849ff-3e3c-4441-ab37-ba8a5d5d03a8")
+	)
+	(label "J1_LED_OR_A"
+		(at 379.73 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1b2dc453-96de-4e00-87ba-09e49cf514ee")
 	)
 	(label "P1_U3SSRX_N"
 		(at 43.18 125.73 0)
@@ -15584,6 +15805,17 @@
 			(justify left bottom)
 		)
 		(uuid "3cc9e01a-5b82-4a98-b2f6-ce445846e4e6")
+	)
+	(label "RPI_VBUS_K"
+		(at 344.17 204.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "44425372-b61d-4d81-90b3-263b5bfef207")
 	)
 	(label "U2_L2"
 		(at 185.42 196.85 0)
@@ -15849,6 +16081,17 @@
 		)
 		(uuid "9b863417-9c41-4b46-824f-5d277c412e02")
 	)
+	(label "POE_VP"
+		(at 102.87 213.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "9ce62442-c5e8-4b77-9541-12fbbb6be5f0")
+	)
 	(label "J6_DC_C"
 		(at 295.91 85.09 0)
 		(fields_autoplaced yes)
@@ -15904,7 +16147,7 @@
 		)
 		(uuid "abcb5d82-cf2a-459f-bd49-5f2f4a417655")
 	)
-	(label "POE_VP"
+	(label "POE_VP_F"
 		(at 62.23 204.47 0)
 		(fields_autoplaced yes)
 		(effects
@@ -16179,6 +16422,28 @@
 		)
 		(uuid "e096387e-02d4-40ff-ad95-ca6920676f84")
 	)
+	(label "POE_VP_A"
+		(at 163.83 274.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e200fe4c-8635-4d46-ae59-a7241c3567f8")
+	)
+	(label "POE_VP_F"
+		(at 163.83 257.81 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "e5b288b8-b2c7-40b5-ace2-16bb57aec5e4")
+	)
 	(label "IC1_U3SSRX_P"
 		(at 209.55 22.86 0)
 		(fields_autoplaced yes)
@@ -16244,6 +16509,17 @@
 			(justify left bottom)
 		)
 		(uuid "f8920817-86de-4daa-ac1b-2c07a4713345")
+	)
+	(label "U2_PG"
+		(at 273.05 220.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f9135e90-c656-4936-a55a-d5bee2f234e5")
 	)
 	(label "P1_SH"
 		(at 19.05 146.05 0)
@@ -16408,7 +16684,7 @@
 				)
 			)
 		)
-		(property "Value" "SMAJ58A"
+		(property "Value" "SMAJ20A"
 			(at 92.71 224.79 0)
 			(effects
 				(font
@@ -16468,7 +16744,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C148209"
+		(property "LCSC" "C115250"
 			(at 95.25 224.79 0)
 			(effects
 				(font
@@ -16565,78 +16841,6 @@
 		)
 	)
 	(symbol
-		(lib_id "pizero-papoe-rescue:+5V")
-		(at 269.24 209.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000056b115cb")
-		(property "Reference" "#PWR05"
-			(at 269.24 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 269.24 205.994 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 269.24 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 269.24 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 269.24 209.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part No." ""
-			(at 269.24 209.55 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5ac580f5-2684-4114-8336-73e4738c5414")
-		)
-		(instances
-			(project "pizero-papoe"
-				(path "/40ea940b-f76b-45c3-b1d1-1f2909b08181"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "pizero-papoe-rescue:Crystal")
 		(at 182.88 134.62 0)
 		(unit 1)
@@ -16683,15 +16887,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part No." "774-445I23D25M00000"
-			(at 182.88 134.62 0)
-			(effects
-				(font
-					(size 1.524 1.524)
 				)
 				(hide yes)
 			)
@@ -16750,7 +16945,7 @@
 				(hide yes)
 			)
 		)
-		(property "LSCS" "C251592"
+		(property "LCSC" "C251592"
 			(at 182.88 134.62 0)
 			(effects
 				(font
@@ -16800,7 +16995,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "30pf"
+		(property "Value" "30pF"
 			(at 177.165 142.24 0)
 			(effects
 				(font
@@ -16904,7 +17099,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "30pf"
+		(property "Value" "30pF"
 			(at 187.325 142.24 0)
 			(effects
 				(font
@@ -16944,6 +17139,15 @@
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C501847"
+			(at 187.96 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -17127,7 +17331,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "0.1uF"
 			(at 114.935 100.33 0)
 			(effects
 				(font
@@ -17153,7 +17357,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "±10% 100nF 50V X7R 0603 MLCC"
 			(at 114.3 97.79 0)
 			(effects
 				(font
@@ -17167,6 +17371,15 @@
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6119867"
+			(at 114.3 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -17204,7 +17417,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "0.1uF"
 			(at 135.255 100.33 0)
 			(effects
 				(font
@@ -17230,7 +17443,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "±10% 100nF 50V X7R 0603 MLCC"
 			(at 134.62 97.79 0)
 			(effects
 				(font
@@ -17244,6 +17457,15 @@
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6119867"
+			(at 134.62 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -17281,7 +17503,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "0.1uF"
 			(at 236.855 137.16 0)
 			(effects
 				(font
@@ -17307,7 +17529,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "±10% 100nF 50V X7R 0603 MLCC"
 			(at 236.22 134.62 0)
 			(effects
 				(font
@@ -17321,6 +17543,15 @@
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6119867"
+			(at 236.22 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -17358,7 +17589,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "0.1uF"
 			(at 247.015 137.16 0)
 			(effects
 				(font
@@ -17384,7 +17615,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "±10% 100nF 50V X7R 0603 MLCC"
 			(at 246.38 134.62 0)
 			(effects
 				(font
@@ -17398,6 +17629,15 @@
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6119867"
+			(at 246.38 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -17477,6 +17717,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 387.35 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8a58df79-6292-4f2e-b2f8-51235bfbcf8e")
 		)
@@ -17552,6 +17801,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 387.35 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "254efb12-7039-4df0-b6ae-3a49428cf673")
 		)
@@ -17609,7 +17867,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "30A 1V@400mA 800mA 100V MBS Bridge Rectifiers ROHS"
 			(at 62.23 245.11 0)
 			(effects
 				(font
@@ -17623,6 +17881,15 @@
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2488"
+			(at 62.23 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -17889,6 +18156,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C15401"
+			(at 320.04 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f8a52ef3-3265-4c5d-8d49-9042d58be086")
 		)
@@ -18089,6 +18365,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25600"
+			(at 332.74 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "87b0b024-b68e-4c41-a77f-3d98f57373d6")
 		)
@@ -18178,7 +18463,7 @@
 	)
 	(symbol
 		(lib_id "pizero-papoe-rescue:Led_Small")
-		(at 289.56 198.12 90)
+		(at 276.86 198.12 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18186,7 +18471,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000057e82421")
 		(property "Reference" "D5"
-			(at 286.385 199.39 0)
+			(at 273.685 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18195,7 +18480,7 @@
 			)
 		)
 		(property "Value" "LED Green"
-			(at 292.1 202.565 0)
+			(at 279.4 202.565 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18204,7 +18489,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 289.56 198.12 90)
+			(at 276.86 198.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18213,7 +18498,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 289.56 198.12 90)
+			(at 276.86 198.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18221,7 +18506,7 @@
 			)
 		)
 		(property "Description" "LED GREEN CLEAR 0603 SMD"
-			(at 289.56 198.12 0)
+			(at 276.86 198.12 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18230,7 +18515,7 @@
 			)
 		)
 		(property "Type" "SMT"
-			(at 289.56 198.12 0)
+			(at 276.86 198.12 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18239,7 +18524,7 @@
 			)
 		)
 		(property "Mfg" "Lite-On"
-			(at 289.56 198.12 0)
+			(at 276.86 198.12 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18248,7 +18533,7 @@
 			)
 		)
 		(property "Mfg Part No" "LTST-C190GKT"
-			(at 289.56 198.12 0)
+			(at 276.86 198.12 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18257,7 +18542,7 @@
 			)
 		)
 		(property "LCSC" "C125093"
-			(at 289.56 198.12 0)
+			(at 276.86 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18282,7 +18567,7 @@
 	)
 	(symbol
 		(lib_id "pizero-papoe-rescue:+5V")
-		(at 289.56 187.96 0)
+		(at 276.86 187.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18290,7 +18575,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000057e82b71")
 		(property "Reference" "#PWR034"
-			(at 289.56 191.77 0)
+			(at 276.86 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18299,7 +18584,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 289.56 184.404 0)
+			(at 276.86 184.404 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18307,7 +18592,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 289.56 187.96 0)
+			(at 276.86 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18315,7 +18600,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 289.56 187.96 0)
+			(at 276.86 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18323,7 +18608,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 289.56 187.96 0)
+			(at 276.86 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18332,7 +18617,7 @@
 			)
 		)
 		(property "Mouser Part No." ""
-			(at 289.56 187.96 0)
+			(at 276.86 187.96 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18354,7 +18639,7 @@
 	)
 	(symbol
 		(lib_id "pizero-papoe-rescue:R_Small")
-		(at 289.56 205.74 0)
+		(at 276.86 205.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18362,7 +18647,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000057e82e39")
 		(property "Reference" "R13"
-			(at 290.322 205.232 0)
+			(at 277.622 205.232 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18371,7 +18656,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 290.322 206.756 0)
+			(at 277.622 206.756 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18380,7 +18665,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 289.56 205.74 0)
+			(at 276.86 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18389,7 +18674,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 289.56 205.74 0)
+			(at 276.86 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18397,7 +18682,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 289.56 205.74 0)
+			(at 276.86 205.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18406,10 +18691,19 @@
 			)
 		)
 		(property "Type" "SMT"
-			(at 289.56 205.74 0)
+			(at 276.86 205.74 0)
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 276.86 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -18424,69 +18718,6 @@
 			(project "pizero-papoe"
 				(path "/40ea940b-f76b-45c3-b1d1-1f2909b08181"
 					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "pizero-papoe-rescue:GND")
-		(at 289.56 213.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000057e82f67")
-		(property "Reference" "#PWR035"
-			(at 289.56 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 289.56 217.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 289.56 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 289.56 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 289.56 213.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3550e6c8-8007-4ff7-a3cc-7f05d0f8a17a")
-		)
-		(instances
-			(project "pizero-papoe"
-				(path "/40ea940b-f76b-45c3-b1d1-1f2909b08181"
-					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -18554,7 +18785,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg PN" "CPG-01-TH-TR"
+		(property "Mfg PN" "CPG-01-TH-B"
+			(at 36.83 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "--"
 			(at 36.83 67.31 0)
 			(effects
 				(font
@@ -18785,7 +19025,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "0a940b57-e6e3-4c69-9e71-4adbd0eaed31")
 		(property "Reference" "TP3"
 			(at 389.89 218.9479 0)
@@ -18862,7 +19102,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "0.1uF"
 			(at 241.935 58.42 0)
 			(effects
 				(font
@@ -18888,7 +19128,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "±10% 100nF 50V X7R 0603 MLCC"
 			(at 241.3 55.88 0)
 			(effects
 				(font
@@ -18902,6 +19142,15 @@
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6119867"
+			(at 241.3 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -19104,7 +19353,16 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "±10% 100nF 50V X7R 0603 MLCC"
+			(at 314.96 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6119867"
 			(at 314.96 105.41 0)
 			(effects
 				(font
@@ -19278,7 +19536,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "0.1uF"
 			(at 255.905 58.42 0)
 			(effects
 				(font
@@ -19304,7 +19562,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "±10% 100nF 50V X7R 0603 MLCC"
 			(at 255.27 55.88 0)
 			(effects
 				(font
@@ -19322,6 +19580,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C6119867"
+			(at 255.27 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3f31b321-2b67-4db1-9bd7-a0f18be3e9f1")
 		)
@@ -19332,72 +19599,6 @@
 			(project "pizero-papoe"
 				(path "/40ea940b-f76b-45c3-b1d1-1f2909b08181"
 					(reference "C31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 393.7 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "18728a58-6b34-4661-a65a-78d2bb8c276c")
-		(property "Reference" "#PWR08"
-			(at 393.7 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 393.7 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 393.7 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 393.7 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 393.7 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f63438e4-3b2e-402a-9de3-c1286147a357")
-		)
-		(instances
-			(project "pizero-papoe"
-				(path "/40ea940b-f76b-45c3-b1d1-1f2909b08181"
-					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -19440,7 +19641,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 203.2 228.6 0)
 			(effects
 				(font
@@ -19450,6 +19651,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 203.2 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15401"
 			(at 203.2 228.6 0)
 			(effects
 				(font
@@ -19468,72 +19678,6 @@
 			(project "pizero-papoe"
 				(path "/40ea940b-f76b-45c3-b1d1-1f2909b08181"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 393.7 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1d74fbf1-1d3d-4702-a1bd-d2102fb30515")
-		(property "Reference" "#PWR014"
-			(at 393.7 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 393.7 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 393.7 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 393.7 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 393.7 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "69729ed1-834e-4d96-84d0-d6a0e874e402")
-		)
-		(instances
-			(project "pizero-papoe"
-				(path "/40ea940b-f76b-45c3-b1d1-1f2909b08181"
-					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -19595,6 +19739,15 @@
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1203"
+			(at 71.12 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -19678,6 +19831,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 163.83 264.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20a36bd7-160d-440c-a635-4711148a2450")
+		(property "Reference" "R9"
+			(at 166.37 263.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 166.37 266.065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 163.83 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 163.83 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15401"
+			(at 163.83 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93b09469-d882-49ad-9c68-4a5ee0957c27")
+		)
+		(pin "2"
+			(uuid "bf9dee7b-cc0d-4db3-84a7-50d9e9d53dbe")
+		)
+		(instances
+			(project "pizero-papoe"
+				(path "/40ea940b-f76b-45c3-b1d1-1f2909b08181"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "pizero-papoe-special:RTL8153B-VB-CG")
 		(at 236.22 95.25 180)
 		(unit 1)
@@ -19722,7 +19954,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "abjxj"
+		(property "Description" ""
 			(at 236.22 95.25 0)
 			(effects
 				(font
@@ -19741,7 +19973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Realtek"
+		(property "Mfg" "Realtek"
 			(at 168.91 -381.89 0)
 			(effects
 				(font
@@ -19751,7 +19983,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "RTL8153B-VB-CG"
+		(property "Mfg PN" "RTL8153B-VB-CG"
 			(at 168.91 -481.89 0)
 			(effects
 				(font
@@ -19761,43 +19993,12 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 168.91 -581.89 0)
+		(property "LCSC" "C2802072"
+			(at 236.22 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 168.91 -681.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 168.91 -781.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 168.91 -881.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
 				(hide yes)
 			)
 		)
@@ -19993,6 +20194,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1203"
+			(at 71.12 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b6657796-6e59-4f8f-bb18-7197a9485fde")
 		)
@@ -20044,7 +20254,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 149.86 241.3 0)
 			(effects
 				(font
@@ -20053,7 +20263,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "16V 100nF X7R ±10% 0603 Multilayer Ceramic Capacitors MLCC"
+		(property "Description" "±10% 100nF 50V X7R 0603 MLCC"
 			(at 149.86 241.3 0)
 			(effects
 				(font
@@ -20080,7 +20290,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C108079"
+		(property "LCSC" "C6119867"
 			(at 149.86 241.3 0)
 			(effects
 				(font
@@ -20150,7 +20360,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 134.62 220.98 0)
 			(effects
 				(font
@@ -20160,6 +20370,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 134.62 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15401"
 			(at 134.62 220.98 0)
 			(effects
 				(font
@@ -20245,7 +20464,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg PN" "CPG-01-TH-TR"
+		(property "Mfg PN" "CPG-01-TH-B"
+			(at 36.83 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "--"
 			(at 36.83 64.77 0)
 			(effects
 				(font
@@ -20335,6 +20563,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "LCSC" "C6119965"
+			(at 125.73 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -20540,6 +20777,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C779389"
+			(at 68.58 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "781f6fce-1f71-478f-84a0-bf4503427099")
 		)
@@ -20617,7 +20863,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg PN" "CPG-01-TH-TR"
+		(property "Mfg PN" "CPG-01-TH-B"
+			(at 36.83 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "--"
 			(at 36.83 77.47 0)
 			(effects
 				(font
@@ -20674,7 +20929,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 194.31 218.44 0)
 			(effects
 				(font
@@ -20699,6 +20954,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "LCSC" "C882505"
+			(at 194.31 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -20761,6 +21025,15 @@
 			)
 		)
 		(property "Description" "1CT:1CT 10/100/1000 Base-T Ethernet Transformer, SMD-24"
+			(at 284.48 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C123168"
 			(at 284.48 90.17 0)
 			(effects
 				(font
@@ -20905,6 +21178,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "--"
+			(at 15.24 -11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/40ea940b-f76b-45c3-b1d1-1f2909b08181"
@@ -21022,7 +21304,16 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10V 100nF X5R ±10% 0201 MLCC"
+			(at 226.06 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6119757"
 			(at 226.06 33.02 0)
 			(effects
 				(font
@@ -21114,7 +21405,7 @@
 	)
 	(symbol
 		(lib_id "pizero-papoe-rescue:R_Small")
-		(at 358.14 205.74 0)
+		(at 358.14 208.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21122,7 +21413,7 @@
 		(dnp no)
 		(uuid "4bd71a7d-4941-42e7-9684-49959f86a34a")
 		(property "Reference" "R8"
-			(at 358.902 205.232 0)
+			(at 358.902 207.772 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21131,7 +21422,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 358.902 206.756 0)
+			(at 358.902 209.296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21140,7 +21431,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 358.14 205.74 0)
+			(at 358.14 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21149,7 +21440,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 358.14 205.74 0)
+			(at 358.14 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21157,7 +21448,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 358.14 205.74 0)
+			(at 358.14 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21166,10 +21457,19 @@
 			)
 		)
 		(property "Type" "SMT"
-			(at 358.14 205.74 0)
+			(at 358.14 208.28 0)
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C21190"
+			(at 358.14 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -21231,7 +21531,16 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "±10% 100nF 50V X7R 0603 MLCC"
+			(at 261.62 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6119867"
 			(at 261.62 105.41 0)
 			(effects
 				(font
@@ -21473,7 +21782,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 54.61 100.33 0)
 			(effects
 				(font
@@ -21483,6 +21792,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 54.61 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C26000"
 			(at 54.61 100.33 0)
 			(effects
 				(font
@@ -21670,6 +21988,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C21190"
+			(at 387.35 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7f36a65b-50c7-4c1a-80c6-41d85ae7b6f8")
 		)
@@ -21727,7 +22054,16 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "±10% 100nF 50V X7R 0603 MLCC"
+			(at 261.62 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6119867"
 			(at 261.62 100.33 0)
 			(effects
 				(font
@@ -21793,7 +22129,16 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "±10% 100nF 50V X7R 0603 MLCC"
+			(at 314.96 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6119867"
 			(at 314.96 85.09 0)
 			(effects
 				(font
@@ -21975,7 +22320,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "0.1uF"
 			(at 277.495 137.16 0)
 			(effects
 				(font
@@ -22001,7 +22346,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "±10% 100nF 50V X7R 0603 MLCC"
 			(at 276.86 134.62 0)
 			(effects
 				(font
@@ -22015,6 +22360,15 @@
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6119867"
+			(at 276.86 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -22041,7 +22395,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "66665173-5552-4cf8-b8d4-4ec77688386c")
 		(property "Reference" "TP1"
@@ -22198,7 +22552,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "0.1uF"
 			(at 267.335 137.16 0)
 			(effects
 				(font
@@ -22224,7 +22578,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "±10% 100nF 50V X7R 0603 MLCC"
 			(at 266.7 134.62 0)
 			(effects
 				(font
@@ -22238,6 +22592,15 @@
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6119867"
+			(at 266.7 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -22346,7 +22709,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2178233"
+		(property "LCSC" "C6119965"
 			(at 116.84 220.98 0)
 			(effects
 				(font
@@ -22481,7 +22844,16 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "25V 1uF X7R ±10% 0603 MLCC"
+			(at 19.05 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5673"
 			(at 19.05 149.86 0)
 			(effects
 				(font
@@ -22566,6 +22938,71 @@
 			(project "pizero-papoe"
 				(path "/40ea940b-f76b-45c3-b1d1-1f2909b08181"
 					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 393.7 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7759fe79-084c-4891-ab5b-9af817f0bbf3")
+		(property "Reference" "#PWR028"
+			(at 393.7 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 393.7 69.596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 393.7 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 393.7 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 393.7 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "305191c4-1903-419c-9ffb-70d7814eab43")
+		)
+		(instances
+			(project "pizero-papoe"
+				(path "/40ea940b-f76b-45c3-b1d1-1f2909b08181"
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -22817,7 +23254,16 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10V 100nF X5R ±10% 0201 MLCC"
+			(at 226.06 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6119757"
 			(at 226.06 27.94 0)
 			(effects
 				(font
@@ -22859,7 +23305,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "0.1uF"
 			(at 184.785 31.75 0)
 			(effects
 				(font
@@ -22885,7 +23331,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "±10% 100nF 50V X7R 0603 MLCC"
 			(at 184.15 29.21 0)
 			(effects
 				(font
@@ -22899,6 +23345,15 @@
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6119867"
+			(at 184.15 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -23094,7 +23549,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "16V 4.7uF X5R ±10% 0603 MLCC"
 			(at 162.56 55.88 0)
 			(effects
 				(font
@@ -23108,6 +23563,15 @@
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6119855"
+			(at 162.56 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -23170,7 +23634,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "1.5uH Shielded inductor ±20% 4.84A SMD,4x4mm Power Inductors ROHS"
 			(at 170.18 196.85 0)
 			(effects
 				(font
@@ -23197,7 +23661,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg 2" "Sunlord"
+		(property "Mfg 2" "LanTu Micro"
 			(at 170.18 196.85 90)
 			(effects
 				(font
@@ -23206,7 +23670,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg 2 Part No" "SWPA4030S1R5NT"
+		(property "Mfg 2 Part No" "SNR4030-1R5MT"
 			(at 170.18 196.85 90)
 			(effects
 				(font
@@ -23215,7 +23679,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "LCSC"
+		(property "LCSC" "C5127390"
 			(at 170.18 196.85 90)
 			(effects
 				(font
@@ -23234,6 +23698,100 @@
 			(project "pizero-papoe"
 				(path "/40ea940b-f76b-45c3-b1d1-1f2909b08181"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Polyfuse")
+		(at 88.9 213.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8fdfcc59-3fb7-4b27-ab2e-94a6131d8c05")
+		(property "Reference" "F2"
+			(at 88.9 208.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "JFC1206-1250FS"
+			(at 88.9 210.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
+			(at 93.98 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Fuse 2.5A 63V 63V 1206 Disposable"
+			(at 112.268 208.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mfg" "Shenzhen JDT Fuse"
+			(at 88.9 213.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg Part No" "JFC1206-1250FS "
+			(at 88.9 213.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C136346"
+			(at 88.9 213.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a10443bb-4b29-4cdd-85cc-fca02233487f")
+		)
+		(pin "2"
+			(uuid "03940b4a-1fcd-41b1-b520-ab4ddd2f2c66")
+		)
+		(instances
+			(project "pizero-papoe"
+				(path "/40ea940b-f76b-45c3-b1d1-1f2909b08181"
+					(reference "F2")
 					(unit 1)
 				)
 			)
@@ -23275,7 +23833,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 143.51 220.98 0)
 			(effects
 				(font
@@ -23388,7 +23946,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "16V 4.7uF X5R ±10% 0603 MLCC"
 			(at 104.14 55.88 0)
 			(effects
 				(font
@@ -23402,6 +23960,15 @@
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6119855"
+			(at 104.14 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -23428,7 +23995,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "9260da93-b2a7-4579-b9ce-3d112dcac7ac")
 		(property "Reference" "C23"
 			(at 109.22 263.906 0)
@@ -23439,7 +24006,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "nostuff-330-1200uF"
+		(property "Value" "330-1200uF-dnp"
 			(at 109.22 266.446 0)
 			(effects
 				(font
@@ -23457,7 +24024,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 105.41 265.43 0)
 			(effects
 				(font
@@ -23620,7 +24187,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 203.2 218.44 0)
 			(effects
 				(font
@@ -23630,6 +24197,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 203.2 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23198"
 			(at 203.2 218.44 0)
 			(effects
 				(font
@@ -23671,7 +24247,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "0.1uF"
 			(at 153.035 58.42 0)
 			(effects
 				(font
@@ -23697,7 +24273,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "±10% 100nF 50V X7R 0603 MLCC"
 			(at 152.4 55.88 0)
 			(effects
 				(font
@@ -23715,6 +24291,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C6119867"
+			(at 152.4 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "51650f6a-6cf0-476e-8cab-c5dba6ebe9a2")
 		)
@@ -23725,6 +24310,78 @@
 			(project "pizero-papoe"
 				(path "/40ea940b-f76b-45c3-b1d1-1f2909b08181"
 					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pizero-papoe-rescue:GND")
+		(at 182.88 273.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9a21d945-3810-42ed-87ec-5c35ac6717ad")
+		(property "Reference" "#PWR05"
+			(at 182.88 279.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 182.88 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 182.88 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part No." ""
+			(at 182.88 273.05 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "658a24ee-a522-4886-99ab-9f5c80296cac")
+		)
+		(instances
+			(project "pizero-papoe"
+				(path "/40ea940b-f76b-45c3-b1d1-1f2909b08181"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -23748,7 +24405,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "0.1uF"
 			(at 114.935 58.42 0)
 			(effects
 				(font
@@ -23774,7 +24431,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "±10% 100nF 50V X7R 0603 MLCC"
 			(at 114.3 55.88 0)
 			(effects
 				(font
@@ -23788,6 +24445,15 @@
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6119867"
+			(at 114.3 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -23915,7 +24581,16 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10V 100nF X5R ±10% 0201 MLCC"
+			(at 226.06 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6119757"
 			(at 226.06 22.86 0)
 			(effects
 				(font
@@ -24432,7 +25107,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg PN" "CPG-01-TH-TR"
+		(property "Mfg PN" "CPG-01-TH-B"
+			(at 36.83 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "--"
 			(at 36.83 80.01 0)
 			(effects
 				(font
@@ -24490,7 +25174,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 214.63 228.6 0)
 			(effects
 				(font
@@ -24500,6 +25184,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 214.63 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25600"
 			(at 214.63 228.6 0)
 			(effects
 				(font
@@ -24541,7 +25234,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "0.1uF"
 			(at 104.775 100.33 0)
 			(effects
 				(font
@@ -24567,7 +25260,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "±10% 100nF 50V X7R 0603 MLCC"
 			(at 104.14 97.79 0)
 			(effects
 				(font
@@ -24581,6 +25274,15 @@
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6119867"
+			(at 104.14 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -24607,7 +25309,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "b1035176-a623-4e3d-937a-12ac8b5998e9")
 		(property "Reference" "C24"
 			(at 138.43 263.906 0)
@@ -24618,7 +25320,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "nostuff-330-1200uF"
+		(property "Value" "330-1200uF-dnp"
 			(at 138.43 266.446 0)
 			(effects
 				(font
@@ -24636,7 +25338,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 134.62 265.43 0)
 			(effects
 				(font
@@ -24740,7 +25442,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "16V 4.7uF X5R ±10% 0603 MLCC"
 			(at 124.46 97.79 0)
 			(effects
 				(font
@@ -24754,6 +25456,15 @@
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6119855"
+			(at 124.46 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -24791,7 +25502,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "0.1uF"
 			(at 266.065 58.42 0)
 			(effects
 				(font
@@ -24817,7 +25528,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "±10% 100nF 50V X7R 0603 MLCC"
 			(at 265.43 55.88 0)
 			(effects
 				(font
@@ -24831,6 +25542,15 @@
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6119867"
+			(at 265.43 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -25020,7 +25740,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "0.1uF"
 			(at 135.255 58.42 0)
 			(effects
 				(font
@@ -25046,7 +25766,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "±10% 100nF 50V X7R 0603 MLCC"
 			(at 134.62 55.88 0)
 			(effects
 				(font
@@ -25060,6 +25780,15 @@
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6119867"
+			(at 134.62 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -25097,7 +25826,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "0.1uF"
 			(at 257.175 137.16 0)
 			(effects
 				(font
@@ -25123,7 +25852,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "±10% 100nF 50V X7R 0603 MLCC"
 			(at 256.54 134.62 0)
 			(effects
 				(font
@@ -25137,6 +25866,15 @@
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6119867"
+			(at 256.54 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -25158,7 +25896,7 @@
 	)
 	(symbol
 		(lib_id "pizero-papoe-rescue:Led_Small")
-		(at 379.73 102.87 90)
+		(at 379.73 102.87 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25166,7 +25904,7 @@
 		(dnp no)
 		(uuid "b7f1c5d2-7b26-4fa2-8ec7-4a464830336b")
 		(property "Reference" "D4"
-			(at 376.555 104.14 0)
+			(at 382.905 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25175,7 +25913,7 @@
 			)
 		)
 		(property "Value" "LED Orange"
-			(at 382.27 107.315 0)
+			(at 377.19 98.425 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25371,7 +26109,16 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "25V 1uF X7R ±10% 0603 MLCC"
+			(at 367.03 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5673"
 			(at 367.03 102.87 0)
 			(effects
 				(font
@@ -25515,6 +26262,15 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode, small symbol, filled shape"
+			(at 60.96 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C779389"
 			(at 60.96 142.24 0)
 			(effects
 				(font
@@ -25683,72 +26439,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 393.7 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c8226744-26b6-45d2-b654-2fa786fb8ddf")
-		(property "Reference" "#PWR09"
-			(at 393.7 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 393.7 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 393.7 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 393.7 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 393.7 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7ec39bbb-1416-4b61-a391-fc06028e8f8b")
-		)
-		(instances
-			(project "pizero-papoe"
-				(path "/40ea940b-f76b-45c3-b1d1-1f2909b08181"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "pizero-papoe-rescue:C")
 		(at 246.38 219.71 0)
 		(unit 1)
@@ -25817,6 +26507,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "LCSC" "C6119965"
+			(at 246.38 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -25905,6 +26604,15 @@
 				(justify left)
 			)
 		)
+		(property "LCSC" "C6119965"
+			(at 231.14 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "27205f83-98e7-4e86-8b96-15447652bc24")
 		)
@@ -25957,7 +26665,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 134.62 77.47 0)
 			(effects
 				(font
@@ -25967,6 +26675,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 134.62 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15401"
 			(at 134.62 77.47 0)
 			(effects
 				(font
@@ -26027,7 +26744,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 205.74 133.35 0)
 			(effects
 				(font
@@ -26037,6 +26754,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 205.74 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15401"
 			(at 205.74 133.35 0)
 			(effects
 				(font
@@ -26078,7 +26804,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uf"
+		(property "Value" "0.1uF"
 			(at 174.625 31.75 0)
 			(effects
 				(font
@@ -26104,7 +26830,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "±10% 100nF 50V X7R 0603 MLCC"
 			(at 173.99 29.21 0)
 			(effects
 				(font
@@ -26118,6 +26844,15 @@
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6119867"
+			(at 173.99 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
@@ -26185,6 +26920,15 @@
 			)
 		)
 		(property "Description" "Bidirectional transient-voltage-suppression diode, small symbol, filled shape"
+			(at 64.77 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C779389"
 			(at 64.77 142.24 0)
 			(effects
 				(font
@@ -26346,7 +27090,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "d97deef8-693b-4634-8492-3fdae70f29e8")
 		(property "Reference" "TP2"
 			(at 381 218.9479 0)
@@ -26474,6 +27218,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "LCSC" "C6119965"
+			(at 238.76 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -26630,7 +27383,16 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "±10% 100nF 50V X7R 0603 MLCC"
+			(at 314.96 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6119867"
 			(at 314.96 95.25 0)
 			(effects
 				(font
@@ -26699,6 +27461,33 @@
 			)
 		)
 		(property "Description" "RJ connector, 8P8C (8 positions 8 connected), two LEDs, RJ45, Shielded"
+			(at 354.33 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "Amphenol"
+			(at 354.33 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg PN" "RJE7318800240"
+			(at 354.33 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "--"
 			(at 354.33 82.55 0)
 			(effects
 				(font
@@ -26975,7 +27764,16 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "±10% 100nF 50V X7R 0603 MLCC"
+			(at 314.96 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6119867"
 			(at 314.96 74.93 0)
 			(effects
 				(font
@@ -27044,7 +27842,16 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "25V 1uF X7R ±10% 0603 MLCC"
+			(at 356.87 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5673"
 			(at 356.87 102.87 0)
 			(effects
 				(font
@@ -27063,6 +27870,110 @@
 			(project "pizero-papoe"
 				(path "/40ea940b-f76b-45c3-b1d1-1f2909b08181"
 					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pizero-papoe-rescue:Led_Small")
+		(at 175.26 265.43 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f13d2e2c-e8df-45c8-9a68-d8c411519019")
+		(property "Reference" "D11"
+			(at 178.435 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED Green"
+			(at 172.72 260.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 175.26 265.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 265.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "LED GREEN CLEAR 0603 SMD"
+			(at 175.26 265.43 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "SMT"
+			(at 175.26 265.43 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg" "Lite-On"
+			(at 175.26 265.43 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfg Part No" "LTST-C190GKT"
+			(at 175.26 265.43 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C125093"
+			(at 175.26 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ade82dec-5ae0-409f-93df-0e5a5e5a6392")
+		)
+		(pin "2"
+			(uuid "845d98e2-be0e-4736-b431-097f81f55677")
+		)
+		(instances
+			(project "pizero-papoe"
+				(path "/40ea940b-f76b-45c3-b1d1-1f2909b08181"
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -27113,7 +28024,16 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "25V 1uF X7R ±10% 0603 MLCC"
+			(at 27.94 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5673"
 			(at 27.94 149.86 0)
 			(effects
 				(font
@@ -27179,7 +28099,16 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10V 100nF X5R ±10% 0201 MLCC"
+			(at 226.06 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C6119757"
 			(at 226.06 38.1 0)
 			(effects
 				(font
@@ -27396,7 +28325,16 @@
 				(hide yes)
 			)
 		)
-		(property "Mfg PN" "CPG-01-TH-TR"
+		(property "Mfg PN" "CPG-01-TH-B"
+			(at 36.83 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "--"
 			(at 36.83 72.39 0)
 			(effects
 				(font
@@ -27639,7 +28577,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "25V 1uF X7R ±10% 0603 MLCC"
 			(at 124.46 55.88 0)
 			(effects
 				(font
@@ -27653,6 +28591,15 @@
 			(effects
 				(font
 					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5673"
+			(at 124.46 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
